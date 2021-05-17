@@ -1,0 +1,20 @@
+{
+    'name': 'Mail Attachment with Password',
+    'version': '0.1',
+    'summary': """Helps to send attachment Email with password.""",
+    'description': 'This module helps you to send Email with password on attachment.',
+    'category': 'Email',
+    'author': 'DWP Project',
+    'company': 'DWP Project',
+    'website': "https://dwp.my.id/",
+    'depends': ['base', 'mail'],
+    'data': [
+        'views/hr_pass_payroll.xml',
+        'views/inherit_res.xml',
+    ],
+    'demo': [],
+    'images': ['static/description/icon.png'],
+    'license': 'AGPL-3',
+    'installable': False,
+    'application': False,
+}
